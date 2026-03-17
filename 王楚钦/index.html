@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王楚钦 | 中国乒乓球队</title>
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入谷歌字体 (可选，让字更好看) -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">WANG CHUQIN</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#profile">个人资料</a></li>
+            <li><a href="#achievements">荣誉时刻</a></li>
+            <li><a href="#gallery">精彩瞬间</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. 英雄区域 (Hero Section) -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>王楚钦</h1>
+            <p class="subtitle">左手横板 · 暴力美学 · 国乒新一代领军人</p>
+            <button id="cheer-btn" class="btn-primary">为大头加油! 🏓</button>
+            <p id="cheer-count" class="hidden">已有 <span>0</span> 人为他加油!</p>
+        </div>
+        <!-- 这里使用网络图片，你可以替换成本地 hero.jpg -->
+        <div class="hero-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wang_Chuqin_2023.png/800px-Wang_Chuqin_2023.png" alt="王楚钦比赛照">
+        </div>
+    </header>
+
+    <!-- 3. 个人资料卡片 -->
+    <section id="profile" class="container">
+        <h2 class="section-title">个人档案</h2>
+        <div class="profile-card">
+            <div class="info-item">
+                <span class="label">出生日期</span>
+                <span class="value">2000年5月11日</span>
+            </div>
+            <div class="info-item">
+                <span class="label">出生地</span>
+                <span class="value">吉林省吉林市</span>
+            </div>
+            <div class="info-item">
+                <span class="label">持拍方式</span>
+                <span class="value">左手横板两面反胶</span>
+            </div>
+            <div class="info-item">
+                <span class="label">世界排名</span>
+                <span class="value highlight">No.1 (截至2024)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 荣誉列表 -->
+    <section id="achievements" class="container bg-light">
+        <h2 class="section-title">主要荣誉</h2>
+        <ul class="honor-list">
+            <li>🏆 2024 巴黎奥运会 男子团体金牌</li>
+            <li>🏆 2024 巴黎奥运会 混合双打金牌 (搭档: 孙颖莎)</li>
+            <li>🏆 2023 德班世乒赛 男子双打金牌</li>
+            <li>🏆 2023 杭州亚运会 男子单打金牌</li>
+            <li>🏆 多次 WTT 冠军赛男单冠军</li>
+        </ul>
+    </section>
+
+    <!-- 5. 页脚 -->
+    <footer>
+        <p>Created by a PingPong Fan | 2026</p>
+    </footer>
+
+    <!-- 引入 JS 文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
